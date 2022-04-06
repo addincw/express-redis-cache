@@ -1,0 +1,30 @@
+<div class="card">
+    <div class="tabs is-centered">
+        <ul>
+            <li>
+                <a> Search Github Repo </a>
+            </li>
+        </ul>
+    </div>
+    <form method="POST" action="/">
+        <div class="card-content">
+            <p>Find github respository <br> by username.</p>
+            <div class="field mt-3">
+                <p class="control has-icons-left">
+                    <input class="input" name="username" type="text" placeholder="username">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-at"></i>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <footer class="card-footer">
+            <button type="submit" class="button is-dark is-fullwidth">
+                <span class="icon is-small">
+                    <i class="fab fa-github"></i>
+                </span>
+                <span>Search</span>
+            </button>
+        </footer>
+    </form>
+</div>
